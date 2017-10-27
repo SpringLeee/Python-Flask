@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>Please Sign In</title>
+</head>
+<body>
+  <h2>hello-{{ message }}</h2>
+
+
+{% if message!= "呵呵"   %}
+
+<h2>恩，呵呵</h2>
+
+{% else  %}
+
+<h2>2333333</h2>
+
+{% endif %}
+
+
+{%  if  message==2  %}
+
+{{  message  }}
+
+{%  endif %}
+
+
+{% for x in range(0,100) %}
+<h1>{{  x }}</h1>
+
+{% endfor %}
+
+</body>
+</html>
